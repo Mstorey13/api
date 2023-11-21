@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Tunes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="getSong(this.id, event)">
+                <img src="images/need to fall.jpeg" alt="Need To Fall Noticing Icarus" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="getSong(this.id, event)">
+                <img src="images/dua lipa.jpeg" alt="Future Nostalgia Dua Lipa" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="getSong(this.id, event)">
+                <img src="images/foster the people.jpeg" alt="Sacred Hearts Club Foster the People" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="getSong(this.id, event)">
+                <img src="images/passion pit.jpeg" alt="Gossamer Passion Pit" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="getSong(this.id, event)">
+                <img src="images/marina.jpeg" alt="Electra Heart Marina" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="getSong(this.id, event)">
+                <img src="images/frank ocean.jpeg" alt="Blond Frank Ocean" class="gallery__img">
+            </figure>
+        </div>
+        <div class="buttoncontain">
+            <button onclick="stopSnippet()">Stop Song</button>
+        </div>
+    </div>
+</body>
+</html>
